@@ -1,9 +1,4 @@
-// create a web server that listens to port 3000
-// handle comments requests
-// GET /comments - return all comments
-// POST /comments - add a new comment
-// PUT /comments/:commentId - update a comment
-// DELETE /comments/:commentId - delete a comment
+// create web server 
 
 const express = require('express');
 const app = express();
